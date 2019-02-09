@@ -7,26 +7,23 @@ class App extends Component {
     return (
       <React.Fragment>
         <Grid>
-
           <Row>
-          <div className="sidenav">
-            <Col xs={12} sm={12} md={12} lg={false}>
-                <div className ="nav-logo">
-                  <p>LOGO</p>
-                  <i class="material-icons">
-account_balance</i> 
-                </div>
-                <div className = "nav-control">
-                  <p>HOME</p>
-                  <p>PROJECTS</p>
-                  <p>CONTACT ME</p>
-                </div>
-                <div class = "nav-network">
-                  <p>FACEBOOK</p>
-                </div>
+            <div className="sidenav">
+              <Col xs={12} sm={12} md={12} lg={false}>
+                  <div className ="nav-logo">
+                    <p>LOGO</p>
+                  </div>
+                  <div className = "nav-control">
+                    <p>HOME</p>
+                    <p>PROJECTS</p>
+                    <p>CONTACT ME</p>
+                  </div>
+                  <div class = "nav-network">
+                    <p>FACEBOOK</p>
+                  </div>
 
-          </Col>
-          </div>
+              </Col>
+            </div>
           </Row>
 
         </Grid> 
