@@ -33,7 +33,7 @@ class App extends Component {
                 <div className="home-content">
 
                   <h2>Hello There!</h2>
-                  <h2>I'm Gerald</h2>
+                  <h2>Iam Gerald</h2>
                   <h2>Designer and Developer.</h2>
                   <hr align="left"/>
                   <p>FRONT END DEVELOPER</p>
