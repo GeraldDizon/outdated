@@ -1,32 +1,101 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+  @media only screen and (min-width: 992px) {  
+    html body{
+      height:100%;
+      width:100%;
+      background-color:#252424;
+    }
+    .sidenav {
+      height: 100%;
+      width: 80px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #a74d4d;
+      overflow-x: hidden;
+      text-align:center;
+    }
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+    }
+    .nav-control{
+      position:absolute;
+      bottom:50%;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .nav-network{
+      position:absolute;
+      bottom:0;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .bg-home-content h2{
+      color:white;
+      font-family: Oswald;
+      font-size: 48px;
+      letter-spacing: 5px;
+    }
+    .home-content h2{
+      margin: 0px 0px 0px 250px;
+      line-height:50px;
+    }
+    .home-content h2:first-child{
+      margin-top:325px;
+    }
+    hr{
+      margin-top:20px;
+      margin-bottom:20px;
+      width:80%;
+      margin-left:220px;
+      color:white;
+      height: 1px;
+      border:none;
+      background-color:white;
+    }
+    .home-content p{
+      font-size:18px;
+      color:#5d5c5c;
+      margin: 0px 0px 0px 250px;
+      font-family: oswald;
+      letter-spacing: 2px;
+    }
+    .home-content p:last-child{
+      margin-top:20px;
+      color:white;
+      border:2px solid #008f91;
+      width:120px;
+      text-align: center;
+      padding:5px;
+      border-radius:10px;
+      font-size:14px;
+    }
+    .home-content p:last-child:hover{
+      background-color:#008f91;
+      cursor:pointer;
+    }
+  } 
+  @media only screen and (max-width: 600px) {
+    .sidenav {
+      background-color:red;
+      text-align:center;
+      width:100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    }
+    .sidenav p{
+      margin:0;
+      display:inline-block;
+    }
+    .nav-logo{
+      display:none;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   
