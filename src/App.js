@@ -40,7 +40,7 @@ class App extends Component {
                   <h2>Designer and Developer.</h2>
                   <hr align="left"/>
                   <p>FRONT END DEVELOPER</p>
-                  <p>s</p> 
+                  <p>HTML / CSS / JAVASCRIPT / PHP</p> 
                   <p>CONTACT ME</p>
                 </div>
               </div>
