@@ -33,7 +33,7 @@ class App extends Component {
                 <div className="home-content">
 
                   <h2>Hello There!</h2>
-                  <h2>Iam Gerald</h2>
+                  <h2>Im Gerald</h2>
                   <h2>Designer and Developer.</h2>
                   <hr align="left"/>
                   <p>FRONT END DEVELOPER</p>
@@ -44,7 +44,6 @@ class App extends Component {
             </Col>
             <Col xs={12} sm={12} md={6} lg={6}>
               <h2>Hello There!</h2>
-              <i class="material-icons">face</i>
             </Col>
           </Row>
         </Grid>
