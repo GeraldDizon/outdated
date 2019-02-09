@@ -20,6 +20,7 @@ class App extends Component {
                   </div>
                   <div class = "nav-network">
                     <p>FACEBOOK</p>
+                    <p>TWITTER</p>
                   </div>
 
               </Col>
