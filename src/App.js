@@ -15,7 +15,7 @@ class App extends Component {
                   </div>
                   <div className = "nav-control">
                     <p>HOME</p>
-                    <p>PROJECTS</p>
+                    <i class="material-icons">home_outline</i>
                     <p>CONTACT ME</p>
                   </div>
                   <div class = "nav-network">
