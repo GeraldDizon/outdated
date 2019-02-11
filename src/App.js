@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import HomeIcon from '@material-ui/icons/HomeOutlined';
 import CollectionsIcon from '@material-ui/icons/CollectionsOutlined';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphoneOutlined';
-import FacebookLogo from './Images/facebooklogoSTART.png';
+import facebookLogo from './Images/facebookLogo.png';
 
 
 class App extends Component {
@@ -22,10 +22,9 @@ class App extends Component {
                     <li><HomeIcon style={{color:"white", fontSize:"25px"}}/></li>
                     <li><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></li>  
                     <li><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></li>  
-                    
                   </div>
                   <div class = "nav-network">
-                  <img src={FacebookLogo} alt="facebook" style={{height:"45px"}}/>  
+                  <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  
                   </div>
               </Col>
             </div>
