@@ -1,9 +1,8 @@
 
-@media only screen and (min-width: 992px) {  
-    html body{
-        height:100%;
-        width:100%;
+@media only screen and (min-width: 992px) { 
+    .bg-home{
         background-color:#252424;
+        min-height:100vh;
     }
     .bg-home-content h2{
         color:white;
@@ -48,9 +47,6 @@
     .home-content p:last-child:hover{
         background-color:#008f91;
         cursor:pointer;
-    }
-    .bg-home-picture {
-        text-align: center;
     }
     .bg-home-picture p{
         min-height:400px;

@@ -6,13 +6,13 @@ import Collection from './components/Collection';
 
 class App extends Component {
   render() {
-    return (
+    return ( 
       <BrowserRouter>
         <React.Fragment>
           <Navbar />
           <Route exact path='/' component={Home} />
           <Route path='/Collection' component={Collection}/>
-        </React.Fragment> 
+          </React.Fragment> 
       </BrowserRouter>
     );
   }
