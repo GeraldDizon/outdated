@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import HomeIcon from '@material-ui/icons/HomeOutlined';
 import CollectionsIcon from '@material-ui/icons/CollectionsOutlined';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphoneOutlined';
+import AboutMe from '@material-ui/icons/FaceOutlined';
 import facebookLogo from '../Images/facebookLogo.png';
 import '../components/Css/Navbar.css';
 import { NavLink } from 'react-router-dom';
@@ -18,9 +19,10 @@ const Navbar = () => {
                                 <p>LOGO</p>
                             </div>
                             <div className = "nav-control">
-                                <li><NavLink exact to="/"><HomeIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
+                                <li><NavLink exact to="/" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
                                 <li><NavLink to="/Collection"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>  
-                                <li><NavLink to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>  
+                                <li><NavLink to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
+                                <li><NavLink to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></NavLink></li>   
                             </div>
                             <div class = "nav-network">
                                 <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  

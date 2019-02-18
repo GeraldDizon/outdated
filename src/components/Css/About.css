@@ -1,5 +1,5 @@
 .collection-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/static/media/collectionBg.bda49e62.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../Images/collectionBg.jpg");
     background-size: 100% 730px;
     min-height: 400px;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
     font-family:oswald;
     background-color:#252424;
     border-radius: 5px;
-    width:300px;
+    width:250px;
     padding-left:20px;
     color:white;
     letter-spacing: 1px;
