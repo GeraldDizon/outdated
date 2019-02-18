@@ -6,20 +6,20 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 const About = () => {
     return(
         <React.Fragment>
-            <div class="collection-bg">
+            <div class="about-bg">
                 <Grid>
                     <Row>
                         <Col xs={false} sm={false} md={12} lg={12}>
                             <div className="div-image">
-                                <p className="collection-image"></p>
+                                <p className="about-image"></p>
                                 <h2>GERALD CHRIS H. DIZON</h2>
-                                <p className="collection-title">Designer & Developer</p>
+                                <p className="about-title">Designer & Developer</p>
                             </div>
                         </Col>
                     </Row>
                 </Grid>
             </div>
-            <div className="collection-about-me">
+            <div className="about-me">
                 <Grid>
                     <Row>
                         <Col xs={false} sm={false} md={12} lg={12}>
@@ -32,11 +32,41 @@ const About = () => {
                     </Row>
                 </Grid>
             </div>
-            <div className="collection-professional-skills">
+            <div className="about-professional-skills">
                 <Grid>
                     <Row>
                         <Col xs={false} sm={false} md={12} lg={12}>
                             <h4>MY PROFESSIONAL SKILLS</h4>
+                            <Row>
+                                <Col xs={12} sm={12} md={2} lg={2}>
+                                    <p className="about-skill-title">HTML</p>
+                                    <p className="about-skill-title">CSS</p>
+                                    <p className="about-skill-title">JAVASCRIPT</p>
+                                    <p className="about-skill-title">PHP</p>
+                                    <p className="about-skill-title">BOOTSTRAP 3</p>
+                                </Col>
+                                <Col xs={12} sm={12} md={4} lg={4}>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                </Col>
+                                <Col xs={12} sm={12} md={2} lg={2}>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JAVASCRIPT</p>
+                                    <p>PHP</p>
+                                    <p>BOOTSTRAP 3</p>
+                                </Col>
+                                <Col xs={12} sm={12} md={4} lg={4}>
+                                <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                    <p className="about-skillbar">as</p>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Grid>
