@@ -1,11 +1,11 @@
-.collection-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../Images/collectionBg.jpg");
+.about-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../Images/aboutBg.jpg");
     background-size: 100% 730px;
     min-height: 400px;
     background-repeat: no-repeat;
     background-position: 100% 60%;
 }
-.collection-image{
+.about-image{
     min-height:150px;
     border:2px solid white;
     border-radius: 300px;
@@ -23,14 +23,14 @@
     letter-spacing: 2px;
     margin:0;
 }
-.collection-title{
+.about-title{
     text-align: center;
     color:#747677;
     font-family:oswald;
     letter-spacing: 2px;
     margin:0;
 }
-.collection-about-me h4{
+.about-me h4{
     margin-top:40px;
     font-family:oswald;
     background-color:#252424;
@@ -40,7 +40,7 @@
     color:white;
     letter-spacing: 1px;
 }
-.collection-about-me p{
+.about-me p{
     font-family: oswald;
     letter-spacing: 1px;
     font-size:24px;
@@ -48,7 +48,11 @@
     margin-right:auto;
     margin-top:50px;
 }
-.collection-professional-skills h4{
+.about-professional-skills {
+    margin-bottom:50px;
+    background-color:#f5f5f5;
+}
+.about-professional-skills h4{
     margin-top:40px;
     font-family:oswald;
     background-color:#252424;
@@ -58,11 +62,14 @@
     color:white;
     letter-spacing: 1px;
 }
-.collection-professional-skills p{
-    font-family: oswald;
-    letter-spacing: 1px;
-    font-size:24px;
-    margin-left:60px;
-    margin-right:auto;
-    margin-top:50px;
+.about-skillbar{
+    background-color:red;
+    width:90%;
+    min-height:17%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.about-skill-title{
 }
