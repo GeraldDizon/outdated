@@ -1,0 +1,68 @@
+.collection-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../Images/collectionBg.jpg");
+    background-size: 100% 730px;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+}
+.collection-image{
+    min-height:150px;
+    border:2px solid white;
+    border-radius: 300px;
+    width:150px;
+    text-align: center;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+.div-image h2{
+    text-align: center;
+    color:white;
+    font-family:oswald;
+    letter-spacing: 2px;
+    margin:0;
+}
+.collection-title{
+    text-align: center;
+    color:#747677;
+    font-family:oswald;
+    letter-spacing: 2px;
+    margin:0;
+}
+.collection-about-me h4{
+    margin-top:40px;
+    font-family:oswald;
+    background-color:#252424;
+    border-radius: 5px;
+    width:150px;
+    padding-left:20px;
+    color:white;
+    letter-spacing: 1px;
+}
+.collection-about-me p{
+    font-family: oswald;
+    letter-spacing: 1px;
+    font-size:24px;
+    margin-left:60px;
+    margin-right:auto;
+    margin-top:50px;
+}
+.collection-professional-skills h4{
+    margin-top:40px;
+    font-family:oswald;
+    background-color:#252424;
+    border-radius: 5px;
+    width:250px;
+    padding-left:20px;
+    color:white;
+    letter-spacing: 1px;
+}
+.collection-professional-skills p{
+    font-family: oswald;
+    letter-spacing: 1px;
+    font-size:24px;
+    margin-left:60px;
+    margin-right:auto;
+    margin-top:50px;
+}
