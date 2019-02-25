@@ -4,10 +4,12 @@ import '../components/Css/Contact.css';
 import LocationIcon from '@material-ui/icons/LocationOnOutlined';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphoneOutlined';
 import EmailIcon from '@material-ui/icons/EmailOutlined';
+import Navbar from '../components/Navbar';
 
 const Contact = () => {
     return(
         <React.Fragment>
+            <Navbar/>
             <Grid fluid>
                 <Row>
                     <Col xs={12} sm={12} md={10} lg={8} className = "bg-contact-content">

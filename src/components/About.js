@@ -1,11 +1,13 @@
 import React from 'react';
 import '../components/Css/About.css';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import Navbar from '../components/Navbar';
 
 
 const About = () => {
     return(
         <React.Fragment>
+            <Navbar/>
             <div className="about-bg">
                 <Grid>
                     <Row>
