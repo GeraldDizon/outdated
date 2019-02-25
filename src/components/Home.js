@@ -1,12 +1,10 @@
 import React from 'react';
 import '../components/Css/Home.css';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import Navbar from '../components/Navbar';
 
 const Home = () => {
     return(
         <React.Fragment>
-            <Navbar/>
             <div className = 'bg-home'>
                 <Grid fluid>
                     <Row>
