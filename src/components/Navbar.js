@@ -11,9 +11,9 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return(
         <React.Fragment>
-            <Grid>
-                <Row>
-                    <div className="sidenav">
+            <div className="sidenav">
+                <Grid>
+                    <Row>
                         <Col xs={12} sm={12} md={false} lg={false}>
                             <div className ="nav-logo">
                                 <p>LOGO</p>
@@ -28,9 +28,9 @@ const Navbar = () => {
                                 <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  
                             </div>
                         </Col>
-                    </div>
-                </Row>
-            </Grid> 
+                    </Row>
+                </Grid> 
+            </div>
         </React.Fragment>
     )
    
