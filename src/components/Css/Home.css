@@ -60,7 +60,8 @@
 @media only screen and (max-width: 768px){
     .bg-home{
         background-color:#252424;
-        min-height:100vh;
+        height:100vh;
+        overflow-x:hidden;
     }
     .bg-home-content h2{
         color:white;
@@ -71,7 +72,7 @@
         text-align:center;
     }
     .bg-home-content h2:first-child{
-        margin-top:280px;
+        margin-top:45vh;
     }
     hr{
         margin-top:20px;
