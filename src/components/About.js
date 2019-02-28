@@ -24,9 +24,9 @@ const About = () => {
                     <Row>
                         <Col xs={false} sm={false} md={12} lg={12}>
                             <h4>ABOUT ME</h4>
-                            <p>I’m a passionate student who loves programming. Creating and designing projects is one of my skills,<br/> 
-                            Other than that I have few background also with 3D model and animation.  I’m willing and open for<br/>  
-                            new opportunities and a career where I could use and develop all of my skills and abilities that I have<br/>  
+                            <p>I’m a passionate student who loves programming. Creating and designing projects is one of my skills,
+                            Other than that I have few background also with 3D model and animation.  I’m willing and open for  
+                            new opportunities and a career where I could use and develop all of my skills and abilities that I have 
                             right now in an actual industry.</p>
                         </Col>
                     </Row>
@@ -38,33 +38,31 @@ const About = () => {
                         <Col xs={false} sm={false} md={12} lg={12}> 
                             <h4>MY PROFESSIONAL SKILLS</h4>
                             <Row>
-                                <Col xs={12} sm={12} md={2} lg={2}>
+                                <Col xs={false} sm={false} md={5} lg={4}>
                                     <p className="about-skill-title">HTML</p>
                                     <p className="about-skill-title">CSS</p>
                                     <p className="about-skill-title">JAVASCRIPT</p>
                                     <p className="about-skill-title">PHP</p>
                                     <p className="about-skill-title">BOOTSTRAP 3</p>
                                 </Col>
-                                <Col xs={12} sm={12} md={4} lg={4}>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
+                                <Col xs={12} sm={12} md={6} lg={6}>
+                                    <div className="about-skillbar"><p>HTML</p></div>
+                                    <div className="about-skillbar"><p>CSS</p></div>
+                                    <div className="about-skillbar"><p>JAVASCRIPT</p></div>
+                                    <div className="about-skillbar"><p>PHP</p></div>
+                                    <div className="about-skillbar"><p>BOOTSTRAP 3</p></div>
                                 </Col>
-                                <Col xs={12} sm={12} md={2} lg={2}>
-                                    <p className="about-skill-title">HTML</p>
-                                    <p className="about-skill-title">CSS</p>
-                                    <p className="about-skill-title">JAVASCRIPT</p>
-                                    <p className="about-skill-title">PHP</p>
-                                    <p className="about-skill-title">BOOTSTRAP 3</p>
+                            </Row>
+                            <Row>
+                                <Col xs={false} sm={false} md={5} lg={4}> 
+                                    <p className="about-skill-title">BLENDER</p>
+                                    <p className="about-skill-title">3DS MAX</p>
+                                    <p className="about-skill-title">PHOTOSHOP</p>
                                 </Col>
-                                <Col xs={12} sm={12} md={4} lg={4}>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
-                                    <p className="about-skillbar"></p>
+                                <Col xs={12} sm={12} md={6} lg={6}>
+                                    <div className="about-skillbar"><p>BLENDER</p></div>
+                                    <div className="about-skillbar"><p>3DS MAX</p></div>
+                                    <div className="about-skillbar"><p>PHOTOSHOP</p></div>
                                 </Col>
                             </Row>
                         </Col>
