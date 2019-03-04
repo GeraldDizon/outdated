@@ -10,38 +10,40 @@ const Contact = () => {
         <React.Fragment>
             <Grid fluid>
                 <Row>
-                    <Col xs={12} sm={12} md={10} lg={8} className = "bg-contact-content">
-                        <div className ="contact-content">
-                            <h1>CONTACT ME</h1>
-                            <p>FEEL FREE TO CONTACT ME IF YOU HAVE QUESTION.</p>
-                            <form>
-                                <div className ="contact-content-input">
-                                    <Row>
-                                        <Col xs={6} sm={6} md={6} lg={6}>
-                                            <input type = "text" placeholder="Firstname" className ="contact-content-fname"/>
-                                        </Col>
-                                        <Col xs={6} sm={6} md={6} lg={6}>
-                                            <input type = "text" placeholder="Lastname" className ="contact-content-lname"/>  
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col xs sm md lg>
-                                            <input type = "text" placeholder="Subject" className ="contact-content-subject"/>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col xs sm md lg>
-                                            <div className="contact-content-action">
-                                                <textarea rows="4" type="text" placeholder="Message"/>
-                                                <p align="right">Send</p>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </form>
-                        </div>
-                    </Col>
-                    <Col xs={12} sm={12} md={2} lg={4}>
+                    <div className = "bg-contact-content">
+                        <Col xs={12} sm={12} md={12} lg={false} >
+                            <div className ="contact-content">
+                                <h1>CONTACT ME</h1>
+                                <p>FEEL FREE TO CONTACT ME IF YOU HAVE QUESTION.</p>
+                                <form>
+                                    <div className ="contact-content-input">
+                                        <Row>
+                                            <Col xs={12} sm={12} md={6} lg={6}>
+                                                <input type = "text" placeholder="Firstname" className ="contact-content-fname"/>
+                                            </Col>
+                                            <Col xs={12} sm={12} md={6} lg={6}>
+                                                <input type = "text" placeholder="Lastname" className ="contact-content-lname"/>  
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <input type = "text" placeholder="Subject" className ="contact-content-subject"/>
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <div className="contact-content-action">
+                                                    <textarea rows="4" type="text" placeholder="Message"/>
+                                                    <p align="right">Send</p>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </form>
+                            </div>
+                        </Col>
+                    </div>
+                    <Col xs={12} sm={12} md={12} lg={false}>
                         <div className="bg-contact">
                             <h1>MY DETAILS</h1>
                             <p className="contact-content-title"><LocationIcon className="contact-icon"/>ADDRESS</p>

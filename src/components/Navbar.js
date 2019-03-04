@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <li><NavLink to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
                                 <li><NavLink to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></NavLink></li>   
                             </div>
-                            <div class = "nav-network">
+                            <div className = "nav-network">
                                 <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  
                             </div>
                         </Col>
