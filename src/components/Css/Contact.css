@@ -107,7 +107,8 @@
         letter-spacing:2px;
     }
     .contact-content-title{
-        font-size:15px;
+        font-size: 15px;
+        font-weight:bold;
         color:#615e5e;
         letter-spacing:2px;
         font-family:oswald;
@@ -116,7 +117,7 @@
         text-align:center;
     }
     .contact-content-info{
-        font-size:15px;
+        font-size: 12px;
         color:#615e5e;
         letter-spacing:2px;
         font-family:oswald;
@@ -137,7 +138,7 @@
         font-weight: bold;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 991px){
     .container-fluid{
         padding-right: 8px;
         padding-left: 0;
@@ -148,10 +149,10 @@
         min-height: 60vh;
         background-repeat: no-repeat;
         background-position: 100% 35%;
-        width: 100%;
+        width:100%;
     }
     .contact-content{
-        margin-left: 15vw;
+        margin-left:130px;
     }
     .contact-content h1{
         color: white;
@@ -169,28 +170,28 @@
         letter-spacing:1.5px;
     }
     .contact-content-fname{
-        width:98%;
+        width:97%;
         height:40px;
         margin-top:10px;
         padding-left:15px;
         font-family:oswald;
     }
     .contact-content-lname{
-        width:100%;
+        width:94%;
         height:40px;
         margin-top:10px;
         padding-left:15px;
         font-family:oswald;
     }
     .contact-content-subject{
-        width:100%;
+        width:97%;
         height:40px;
         margin-top:10px;
         padding-left:15px;
         font-family:oswald;
     }
     textarea{
-        width:100%;
+        width:97%;
         margin-top:10px;
         padding:10px 0 0 15px;
         font-family:oswald;
@@ -241,17 +242,17 @@
         text-align:center;
     }
     .contact-content-title{
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;
         font-family:oswald;
         line-height:20px;
         margin-bottom:5px;
+        text-align:center;
     }
     .contact-content-info{
+        text-align:center;
         margin-top:0;
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;
@@ -297,7 +298,7 @@
     }
     .contact-content p{
         color:#d8d5d5;
-        margin:10px 0 10px 0;
+        margin:20px 0 10px 0;
         font-size:18px;
         font-family:oswald;
         letter-spacing:1.5px;
@@ -351,9 +352,6 @@
         font-family:oswald;
         font-size:15px;
       }
-    .contact-content-input{
-        width:600px;
-    }
     .contact-content-action p{
         color: white;
         border: 2px solid #008f91;
@@ -376,7 +374,6 @@
         letter-spacing:2px;
     }
     .contact-content-title{
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;
@@ -386,7 +383,6 @@
     }
     .contact-content-info{
         margin-top:0;
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;
@@ -406,7 +402,7 @@
         font-weight: bold;
     }
 }
-@media only screen and (min-width: 1440px) and (min-height: 768px){
+@media only screen and (min-width: 1023px){
     .container-fluid{
         padding-right: 8px;
         padding-left: 0;
@@ -417,7 +413,6 @@
         min-height:100vh;
         background-repeat: no-repeat;
         background-position: 100% 35%;
-        width: 50%;
     }
     .contact-content{
         margin-left: 15vw;
@@ -428,6 +423,7 @@
         font-size: 48px;
         font-family:oswald;
         letter-spacing:2px;
+        line-height: 50px
     }
     .contact-content p{
         color:#d8d5d5;
@@ -485,9 +481,6 @@
         font-family:oswald;
         font-size:15px;
       }
-    .contact-content-input{
-        width:600px;
-    }
     .contact-content-action p{
         color: white;
         border: 2px solid #008f91;
@@ -509,7 +502,6 @@
         text-align:center;
     }
     .contact-content-title{
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;
@@ -519,7 +511,6 @@
     }
     .contact-content-info{
         margin-top:0;
-        margin-left: 37vw;
         font-size:15px;
         color:#615e5e;
         letter-spacing:2px;

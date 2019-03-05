@@ -11,7 +11,7 @@ const Contact = () => {
             <Grid fluid>
                 <Row>
                     <div className = "bg-contact-content">
-                        <Col xs={12} sm={12} md={12} lg={false} >
+                        <Col xs={12} sm={12} md={12} lg={8}>
                             <div className ="contact-content">
                                 <h1>CONTACT ME</h1>
                                 <p>FEEL FREE TO CONTACT ME IF YOU HAVE QUESTION.</p>
@@ -43,7 +43,7 @@ const Contact = () => {
                             </div>
                         </Col>
                     </div>
-                    <Col xs={12} sm={12} md={12} lg={false}>
+                    <Col xs={12} sm={12} md={12} lg={4}>
                         <div className="bg-contact">
                             <h1>MY DETAILS</h1>
                             <p className="contact-content-title"><LocationIcon className="contact-icon"/>ADDRESS</p>
