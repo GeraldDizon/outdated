@@ -1,5 +1,5 @@
 /*FOR CELLPHONES */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
     .bg-home{
         background-color:#252424;
         height:100vh;
@@ -62,7 +62,7 @@
     }
 } 
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px){
     .bg-home{
         background-color:#252424;
         min-height:100vh;
@@ -173,10 +173,10 @@
         cursor:pointer;
     }
     .bg-home-picture p{
-        min-height:350px;
-        border:2px solid white;
-        border-radius: 300px;
-        width:350px;
+        min-height: 350px;
+        border: 2px solid white;
+        border-radius: 350px;
+        width: 350px;
         margin-top:25vh;
         margin-left:auto;
         margin-right:auto;
