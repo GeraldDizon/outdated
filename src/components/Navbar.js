@@ -20,7 +20,7 @@ const Navbar = () => {
                             </div>
                             <div className = "nav-control">
                                 <li><NavLink exact to="/" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
-                                <li><NavLink to="/Collection"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>  
+                                <li><NavLink to="/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>  
                                 <li><NavLink to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
                                 <li><NavLink to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></NavLink></li>   
                             </div>

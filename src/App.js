@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Home from './components/Home';
-import Collection from './components/Collection';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
 
@@ -13,7 +13,7 @@ class App extends Component {
         <React.Fragment>
           <Navbar />
           <Route exact path='/' component={Home} />
-          <Route path='/Collection' component={Collection}/>
+          <Route path='/Projects' component={Projects}/>
           <Route path='/Contact' component={Contact}/>
           <Route path='/About' component={About}/>
           </React.Fragment> 
