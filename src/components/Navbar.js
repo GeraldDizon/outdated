@@ -6,7 +6,7 @@ import PhoneIphoneIcon from '@material-ui/icons/PhoneIphoneOutlined';
 import AboutMe from '@material-ui/icons/FaceOutlined';
 import facebookLogo from '../Images/facebookLogo.png';
 import '../components/Css/Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return(
@@ -19,10 +19,10 @@ const Navbar = () => {
                                 <p>LOGO</p>
                             </div>
                             <div className = "nav-control">
-                                <li><NavLink exact to="/" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
-                                <li><NavLink to="/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>  
-                                <li><NavLink to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></NavLink></li>
-                                <li><NavLink to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></NavLink></li>   
+                                <li><Link to="/Home" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
+                                <li><Link to="/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></Link></li>  
+                                <li><Link to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
+                                <li><Link to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></Link></li>   
                             </div>
                             <div className = "nav-network">
                                 <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  
