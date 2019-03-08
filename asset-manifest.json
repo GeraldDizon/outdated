@@ -1,18 +1,18 @@
 {
   "main.css": "/Portfolio/static/css/main.f3fdbd06.chunk.css",
-  "main.js": "/Portfolio/static/js/main.c2381325.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.c2381325.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.69c29ecd.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.69c29ecd.chunk.js.map",
   "static/css/1.ab2e59f5.chunk.css": "/Portfolio/static/css/1.ab2e59f5.chunk.css",
   "static/js/1.d6804279.chunk.js": "/Portfolio/static/js/1.d6804279.chunk.js",
   "static/js/1.d6804279.chunk.js.map": "/Portfolio/static/js/1.d6804279.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
-  "static/css/1.ab2e59f5.chunk.css.map": "/Portfolio/static/css/1.ab2e59f5.chunk.css.map",
+  "static/css/main.f3fdbd06.chunk.css.map": "/Portfolio/static/css/main.f3fdbd06.chunk.css.map",
   "static/media/Project.css": "/Portfolio/static/media/ecommerceFront.acdb2c2d.png",
   "static/media/About.css": "/Portfolio/static/media/aboutBg.bda49e62.jpg",
   "static/media/Contact.css": "/Portfolio/static/media/contactBg.1938ce69.jpg",
-  "static/css/main.f3fdbd06.chunk.css.map": "/Portfolio/static/css/main.f3fdbd06.chunk.css.map",
+  "static/css/1.ab2e59f5.chunk.css.map": "/Portfolio/static/css/1.ab2e59f5.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.b689f84f1cc413ed93c0bf95a654ff91.js": "/Portfolio/precache-manifest.b689f84f1cc413ed93c0bf95a654ff91.js",
+  "precache-manifest.0b7fe9e1d96b7243165e0046d7f9a852.js": "/Portfolio/precache-manifest.0b7fe9e1d96b7243165e0046d7f9a852.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
