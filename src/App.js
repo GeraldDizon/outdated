@@ -12,10 +12,10 @@ class App extends Component {
       <BrowserRouter>
         <React.Fragment>
           <Navbar />
-          <Route exact path='/' component={Home} />
-          <Route path='/Projects' component={Projects}/>
-          <Route path='/Contact' component={Contact}/>
-          <Route path='/About' component={About}/>
+              <Route exact path='/' component={Home} />       
+            <Route path='/Projects' component={Projects}/>
+            <Route path='/Contact' component={Contact}/>
+            <Route path='/About' component={About}/>
           </React.Fragment> 
       </BrowserRouter>
     );
