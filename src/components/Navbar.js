@@ -19,10 +19,10 @@ const Navbar = () => {
                                 <p>LOGO</p>
                             </div>
                             <div className = "nav-control">
-                                <li><Link to="/Home" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
-                                <li><Link to="/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></Link></li>  
-                                <li><Link to="/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
-                                <li><Link to="/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></Link></li>   
+                                <li><Link to="/Portfolio/Home" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
+                                <li><Link to="/Portfolio/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></Link></li>  
+                                <li><Link to="/Portfolio/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
+                                <li><Link to="/Portfolio/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></Link></li>   
                             </div>
                             <div className = "nav-network">
                                 <img src={facebookLogo} alt="facebook" style={{height:"30px"}}/>  
