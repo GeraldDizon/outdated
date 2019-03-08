@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <p>LOGO</p>
                             </div>
                             <div className = "nav-control">
-                                <li><Link to="/Portfolio/Home" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
+                                <li><Link to="/Portfolio/" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
                                 <li><Link to="/Portfolio/Projects"><CollectionsIcon style={{color:"white", fontSize:"25px"}}/></Link></li>  
                                 <li><Link to="/Portfolio/Contact"><PhoneIphoneIcon style={{color:"white", fontSize:"25px"}}/></Link></li>
                                 <li><Link to="/Portfolio/About"><AboutMe style={{color:"white", fontSize:"25px"}}/></Link></li>   
