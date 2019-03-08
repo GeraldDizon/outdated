@@ -1,0 +1,30 @@
+.bg-projects{
+    background-color:#dcdcdc;
+    height:100vh;
+}
+.ecommerce-projects{
+    background: url(../../Images/ecommerceFront.png);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    background-position: 100% 35%;
+    margin-left:100px;
+    min-height:100px;
+    width:100%;
+    font-family: oswald;
+    color:white;
+    text-align:center;
+    padding-top:20%;
+    margin-top:10px;
+}
+.ecommerce-projects:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../Images/ecommerceFront.png);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    background-position: 100% 35%;
+    margin-left:100px;
+    min-height:100px;
+    width:100%;
+    font-family: oswald;
+    color:white;
+    text-align:center;
+}
