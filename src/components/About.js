@@ -46,11 +46,11 @@ const About = () => {
                                     <p className="about-skill-title">BOOTSTRAP 3</p>
                                 </Col>
                                 <Col xs={12} sm={12} md={6} lg={6}>
-                                    <div className="about-skillbar"><p>HTML</p></div>
-                                    <div className="about-skillbar"><p>CSS</p></div>
-                                    <div className="about-skillbar"><p>JAVASCRIPT</p></div>
-                                    <div className="about-skillbar"><p>PHP</p></div>
-                                    <div className="about-skillbar"><p>BOOTSTRAP 3</p></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-1"><p>HTML</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-2"><p>CSS</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-3"><p>JAVASCRIPT</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-4"><p>PHP</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-5"><p>BOOTSTRAP 3</p></div></div>
                                 </Col>
                             </Row>
                             <Row>
@@ -60,9 +60,9 @@ const About = () => {
                                     <p className="about-skill-title">PHOTOSHOP</p>
                                 </Col>
                                 <Col xs={12} sm={12} md={6} lg={6}>
-                                    <div className="about-skillbar"><p>BLENDER</p></div>
-                                    <div className="about-skillbar"><p>3DS MAX</p></div>
-                                    <div className="about-skillbar"><p>PHOTOSHOP</p></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-6"><p>BLENDER</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-7"><p>3DS MAX</p></div></div>
+                                    <div className="bg-about-skillbar"><div className="about-skillbar-8"><p>PHOTOSHOP</p></div></div>
                                 </Col>
                             </Row>
                         </Col>

@@ -1,5 +1,5 @@
 /*FOR CELLPHONES */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .bg-home{
         background-color:#252424;
         height:100vh;
@@ -62,7 +62,7 @@
     }
 } 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
     .bg-home{
         background-color:#252424;
         min-height:100vh;
