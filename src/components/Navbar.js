@@ -16,7 +16,6 @@ const Navbar = () => {
                     <Row>
                         <Col xs={12} sm={12} md={false} lg={false}>
                             <div className ="nav-logo">
-                                <p>LOGO</p>
                             </div>
                             <div className = "nav-control">
                                 <li><Link to="/Portfolio/" style={{border:"none"}}><HomeIcon style={{color:"white", fontSize:"25px"}}/></Link></li>

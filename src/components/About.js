@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/Css/About.css';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-
+import Me from '../Images/Me.png';
 
 const About = () => {
     return(
@@ -11,7 +11,7 @@ const About = () => {
                     <Row>
                         <Col xs={false} sm={false} md={12} lg={12}>
                             <div className="div-image">
-                                <p className="about-image"></p>
+                                <div className="about-image"><img src={Me} alt="Gerald"/></div>
                                 <h2>GERALD CHRIS H. DIZON</h2>
                                 <p className="about-title">Designer & Developer</p>
                             </div>

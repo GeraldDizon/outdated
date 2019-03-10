@@ -15,7 +15,7 @@ const Home = () => {
                                 <h2>Im Gerald</h2>
                                 <h2>Designer and Developer.</h2>
                                 <hr align="left"/>
-                                <p>FRONT END DEVELOPER</p>
+                                <p>DEVELOPER</p>
                                 <p>HTML / CSS / JAVASCRIPT / PHP</p> 
                                 <p>CONTACT ME</p>
                                 </div>
