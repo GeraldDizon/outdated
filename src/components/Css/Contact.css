@@ -352,6 +352,9 @@
         font-family:oswald;
         font-size:15px;
       }
+    .contact-content-action{
+        width:100%;
+    }
     .contact-content-action p{
         color: white;
         border: 2px solid #008f91;
@@ -360,8 +363,7 @@
         padding: 5px;
         border-radius: 10px;
         font-size: 14px;
-        position: absolute;
-        left: 715px;
+        margin-left:auto;
     }
     .contact-content-action p:hover{
         background-color:#008f91;
